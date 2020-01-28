@@ -29,8 +29,8 @@ Your solution should support the following features.
 ## Hints
 1. If you prefer, you can use the [REST-API]( https://docs.microsoft.com/en-us/rest/api/storageservices/blob-service-rest-api).
 2. Or use the Azure SDK for .NET.
-    * `dotnet add package Azure.Storage.Blobs`
-    * `dotnet add package Azure.Storage.Blobs.Batch`
+    * `dotnet add <ProjectName> package Azure.Storage.Blobs`
+    * `dotnet add <ProjectName> package Azure.Storage.Blobs.Batch`
     * Please be aware, that packages starting `Microsoft.Azure` are deprecated.
 3. You may need the following classes:
     * [BlobContainer](https://docs.microsoft.com/en-us/dotnet/api/azure.storage.blobs.blobcontainerclient?view=azure-dotnet)
