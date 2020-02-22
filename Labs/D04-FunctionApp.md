@@ -48,5 +48,10 @@ You can use:
     * For resizing the images, you can use the `SixLabors.ImageSharp` package.
     * Consider using Cognitive Service.
 3. Store the result of any image processing operation.
-4. Append the result of each operation to Cosmos DB.
+4. Append the result of each operation to Cosmos DB:
+    * You can choose which API, you would like to use.
 
+Bonus:
+    * Draw the face landmarks into image and save the result into an Blob & append it to Cosmos DB
+
+### 
