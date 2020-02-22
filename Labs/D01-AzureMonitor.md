@@ -4,7 +4,8 @@
 ## Objectives
 In this lab, we will:
 1. Use the HTTP Data Collector API from Azure to add log items into a Log Analytics Workspace.
-
+2. Create a Docker container out of the project.
+3. Deploy the container to Azure Kubernetes Service.
 
 ## Instructions
 ### Setup up your development environment & Azure
