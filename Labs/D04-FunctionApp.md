@@ -3,7 +3,7 @@
 In this lab, we will create an image processing pipeline, which consists of the following steps:
 1. A user sends a image via HTTP POST 
 2. This will generate a new message in the Azure Storage Queue. The image itself is saved as Blob in the Azure Storage Blob.
-3. A another Azure Function (time-triggered) runs every 15 seconds to process the image including:
+3. Multiple Azure Functions (time-triggered), that run every 15 seconds to process the image including:
     * Send image to Cognitive Service to
       * Create tags
       * Create image description 
@@ -15,6 +15,7 @@ In this lab, we will create an image processing pipeline, which consists of the 
     * Apply some filter to your image (e.g. gray-sale, higher saturation, etc.)
     * Save the result in Azure Storage Account.
     * Don't forget the remove the message from the Queue.
+    * **Each task should be done by an individual Azure Function.**
 4. User will be notified when Image processing is completed.
 
 ## Project setup

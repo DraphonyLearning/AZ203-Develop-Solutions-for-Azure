@@ -33,12 +33,12 @@ Your solution should support the following features.
     * `dotnet add package Azure.Storage.Blobs.Batch`
     * Please be aware, that packages starting `Microsoft.Azure` are deprecated.
 3. You may need the following classes:
-    * [BlobContainer](https://docs.microsoft.com/en-us/dotnet/api/azure.storage.blobs.blobcontainerclient?view=azure-dotnet)
-    * [BlobClient](https://docs.microsoft.com/en-us/dotnet/api/azure.storage.blobs.blobclient?view=azure-dotnet)
-    * [BlockBlobClient](https://docs.microsoft.com/en-us/dotnet/api/azure.storage.blobs.specialized.blockblobclient?view=azure-dotnet)
-    * [PageBlobClient](https://docs.microsoft.com/en-us/dotnet/api/azure.storage.blobs.specialized.pageblobclient?view=azure-dotnet)
-    * [AppendBlobClient](https://docs.microsoft.com/en-us/dotnet/api/azure.storage.blobs.specialized.appendblobclient?view=azure-dotnet)
-    * [BlobLeaseClient](https://docs.microsoft.com/en-us/dotnet/api/azure.storage.blobs.specialized.blobleaseclient?view=azure-dotnet)
-    * [BlobSASBuilder](https://docs.microsoft.com/en-us/dotnet/api/azure.storage.sas.blobsasbuilder?view=azure-dotnet)
-        * Identifier
-    * [BlobUriBuilder](https://docs.microsoft.com/en-us/dotnet/api/azure.storage.blobs.bloburibuilder?view=azure-dotnet)
+    * [BlobContainerClient](https://docs.microsoft.com/en-us/dotnet/api/azure.storage.blobs.blobcontainerclient)
+    * [BlobClient](https://docs.microsoft.com/en-us/dotnet/api/azure.storage.blobs.blobclient)
+    * [BlockBlobClient](https://docs.microsoft.com/en-us/dotnet/api/azure.storage.blobs.specialized.blockblobclient)
+    * [PageBlobClient](https://docs.microsoft.com/en-us/dotnet/api/azure.storage.blobs.specialized.pageblobclient)
+    * [AppendBlobClient](https://docs.microsoft.com/en-us/dotnet/api/azure.storage.blobs.specialized.appendblobclient)
+    * [BlobLeaseClient](https://docs.microsoft.com/en-us/dotnet/api/azure.storage.blobs.specialized.blobleaseclient)
+    * [BlobSASBuilder](https://docs.microsoft.com/en-us/dotnet/api/azure.storage.sas.blobsasbuilder)
+        * [Identifier](https://docs.microsoft.com/en-us/dotnet/api/azure.storage.sas.blobsasbuilder.identifier)
+    * [BlobUriBuilder](https://docs.microsoft.com/en-us/dotnet/api/azure.storage.blobs.bloburibuilder)
